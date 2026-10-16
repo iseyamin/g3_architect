@@ -25,14 +25,29 @@
     color: #727272;
 }
 
+.btn-primary{
+    background-color: rgb(241, 100, 13);
+    color: wheat;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: none;
+}
+
 /*Header styles*/
 .bg-light{
-    background-color: #bb97c4;
+    background-color: #e8d2e2;
 }
 
 /*nav bar style*/
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
 .nav_bar{
    justify-content: space-between;
+   align-items: center;
 }
 .nav_item{
     list-style: none; /*for removing black fota*/
@@ -44,4 +59,25 @@
 .nav_bar, .banner{
     max-width: 1440px;
     margin: 0 auto; /*up-down=0, left-right=auto*/
+}
+/*banner style*/
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* Responsive media query */
+@media screen and (max-width: 676px) {
+    .nav_bar, .nav_links{
+        flex-direction: column;
+    }
 }
