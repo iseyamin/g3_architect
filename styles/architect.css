@@ -9,3 +9,39 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+.text-color1{
+    color: #131313;
+}
+.text-color2{
+    color: #424242;
+}
+.text-color3{
+    color: #727272;
+}
+
+/*Header styles*/
+.bg-light{
+    background-color: #bb97c4;
+}
+
+/*nav bar style*/
+.nav_bar{
+   justify-content: space-between;
+}
+.nav_item{
+    list-style: none; /*for removing black fota*/
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none; /*for removing underline on the link*/
+}
+.nav_bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto; /*up-down=0, left-right=auto*/
+}
