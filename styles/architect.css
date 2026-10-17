@@ -24,6 +24,9 @@
 .text-color3{
     color: #727272;
 }
+.text-color4{
+    color: #FF900E;
+}
 
 .btn-primary{
     background-color: rgb(241, 100, 13);
@@ -33,6 +36,13 @@
     font-size: 1.5rem;
     border-radius: 8px;
     border: none;
+}
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
 }
 
 /*Header styles*/
@@ -73,6 +83,27 @@
 }
 .banner-image{
     width: 100%;
+}
+/* Team and features related styles */
+.teams{
+    align-items: center;
+    
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.our-features{
+    margin-left: 73px;
+    max-width: 530px;
+}
+.Features-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#c1{
+    font-weight: 500;
 }
 
 /* Responsive media query */
